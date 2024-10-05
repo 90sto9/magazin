@@ -56,8 +56,6 @@ background-color: rgb(255, 255, 255);
 
 
 
-  
-
 .book-1-img{
   width: 300px;
   margin-left: 210px;
@@ -66,7 +64,9 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin-left: 12px;
-
+  display: grid;
+  align-items: end;
+  height: 400px;
 }
 
 
@@ -80,7 +80,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin-left: 100px;
-  transform: translateY(63px);
+  transform: translateY(px);
 }
 
 
@@ -94,7 +94,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin-left: 200px;
-  transform: translateY(95px);
+  transform: translateY(px);
 }
 
 
@@ -107,7 +107,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin-left: 50px;
-  transform: translateY(-1560px);
+  transform: translateY(px);
 }
 
 
@@ -121,7 +121,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin-left: 600px;
-  transform: translateY(-1560px);
+  transform: translateY(px);
 }
 
 .book-6-img{
@@ -133,7 +133,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin-left: 50px;
-  transform: translateY(150px);
+  transform: translateY(px);
 }
 
   
@@ -146,7 +146,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin-left: 50px;
-  transform: translateY(150px);
+  transform: translateY(px);
 }
 
 
@@ -158,18 +158,10 @@ background-color: rgb(255, 255, 255);
 .book-8-text{
   color: rgb(0, 0, 0);
   font-size: 20px;
-  margin-left: px;
-  transform: translateY(-3220px);
+  transform: translateY(px);
 }
 
 
 
-
-
-  
-
-
-
-  
 
 
