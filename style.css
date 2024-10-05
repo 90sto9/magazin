@@ -2,7 +2,7 @@ body{
 background-color: rgb(255, 255, 255);
 }
 .logo{
-  font-family: "Optima", sans-serif; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 130px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -12,7 +12,7 @@ background-color: rgb(255, 255, 255);
     text-decoration: none;
     color: rgb(0, 0, 0);
     width: 40px;
-    font-family:'Trebuchet', sans-serif;
+    font-family: Arial, Verdana, sans-serif;
     margin-left: 210px;
   }
 
@@ -64,6 +64,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   transform: translateX(210px);
+  font-family: Arial, Verdana, sans-serif;
 }
 
 
@@ -77,6 +78,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   transform: translateX(85px);
+  font-family: Arial, Verdana, sans-serif;
 }
 
 
@@ -90,6 +92,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   transform: translateX(85px);
+  font-family: Arial, Verdana, sans-serif;
 }
 
 
@@ -102,6 +105,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   transform: translateX(85px);
+  font-family: Arial, Verdana, sans-serif;
 }
 
 
@@ -116,6 +120,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   transform: translateX(210px);
+  font-family: Arial, Verdana, sans-serif;
 
 }
 
@@ -129,6 +134,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   transform: translateX(85px);
+  font-family: Arial, Verdana, sans-serif;
 
 }
 
@@ -143,6 +149,7 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   transform: translateX(85px);
+  font-family: Arial, Verdana, sans-serif;
 
 }
 
@@ -157,11 +164,8 @@ background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
   transform: translateX(85px);
+  font-family: Arial, Verdana, sans-serif;
 }
-
-
-
-
 
 .button_1728138346985 {
   display: inline-block !important;
@@ -173,13 +177,28 @@ background-color: rgb(255, 255, 255);
   font-size: 16px !important;
   padding: 0px 6px !important; 
   transition: all 0.8s ease !important;
+  cursor: pointer;
+  font-family: Arial, Verdana, sans-serif;
 }
 .button_1728138346985:hover{
   text-decoration: none !important; 
   background-color: #006089 !important;
   color: #ffeded !important;
   border-color: #006089 !important;
+  cursor: pointer;
 }
+
+footer {
+  padding: 10px 20px;
+  background: #666;
+  color: white;
+  
+}
+a {
+  color: #00aaff;
+}
+
+
 
 
 body {
@@ -191,10 +210,10 @@ body {
 
 .paginator {
   width: 280px;
-  padding: 10px;
   margin: 30px auto;
+  padding: 10px;
   white-space: nowrap;
-  background: #ecf0f1;
+  transform: translateX(45px);
 }
 
 .paginator a,
@@ -203,38 +222,22 @@ body {
   min-width: 20px;
   height: 40px;
   padding: 0 10px;
-  line-height: 40px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
   text-align: center;
   vertical-align: middle;
+  line-height: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
   background: #95a5a6;
 }
 
-.paginator .prev {
-  text-indent: -1000px;
-  margin-right: 20px;
-  background-image: url("https://htmlacademy.ru/assets/course14/arrows.png");
-  background-repeat :no-repeat ;
-  background-position: 0px 0px;
-}
 
-.paginator .next {
-  text-indent: -1000px;
-  margin-left: 20px;
-  background-image: url("https://htmlacademy.ru/assets/course14/arrows.png");
-  background-repeat :no-repeat ;
-  background-position: 0px -40px;
-}
+
 .paginator .current {
-  background-color: #16a085;
+  background-color: #006089;
 }
 
 .paginator .disabled {
   opacity: 0.3;
 }
 
-.paginator a:hover {
-  background-color: #2ecc71;
-}
