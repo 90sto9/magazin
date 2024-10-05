@@ -63,10 +63,7 @@ background-color: rgb(255, 255, 255);
 .book-1-text{
   color: rgb(0, 0, 0);
   font-size: 20px;
-  margin-left: 12px;
-  display: grid;
-  align-items: end;
-  height: 400px;
+  transform: translateX(210px);
 }
 
 
@@ -79,8 +76,7 @@ background-color: rgb(255, 255, 255);
 .book-2-text{
   color: rgb(0, 0, 0);
   font-size: 20px;
-  margin-left: 100px;
-  transform: translateY(px);
+  transform: translateX(85px);
 }
 
 
@@ -93,8 +89,7 @@ background-color: rgb(255, 255, 255);
 .book-3-text{
   color: rgb(0, 0, 0);
   font-size: 20px;
-  margin-left: 200px;
-  transform: translateY(px);
+  transform: translateX(85px);
 }
 
 
@@ -106,62 +101,140 @@ background-color: rgb(255, 255, 255);
 .book-4-text{
   color: rgb(0, 0, 0);
   font-size: 20px;
-  margin-left: 50px;
-  transform: translateY(px);
+  transform: translateX(85px);
 }
 
 
 .book-5-img{
   width: 300px;
+  height: 468px;
   margin-left: 210px;
-  transform: translateY(150px);
+
 
 }
 .book-5-text{
   color: rgb(0, 0, 0);
   font-size: 20px;
-  margin-left: 600px;
-  transform: translateY(px);
+  transform: translateX(210px);
+
 }
 
 .book-6-img{
   width: 300px;
+  height: 468px;
   margin-left: 85px;
-  transform: translateY(150px);
+
 }
 .book-6-text{
   color: rgb(0, 0, 0);
   font-size: 20px;
-  margin-left: 50px;
-  transform: translateY(px);
+  transform: translateX(85px);
+
 }
 
   
 .book-7-img{
   width: 300px;
+  height: 468px;
   margin-left: 85px;
-  transform: translateY(150px);
+
 }
 .book-7-text{
   color: rgb(0, 0, 0);
   font-size: 20px;
-  margin-left: 50px;
-  transform: translateY(px);
+  transform: translateX(85px);
+
 }
 
 
 .book-8-img{
   width: 300px;
+  height: 468px;
   margin-left: 85px;
-  transform: translateY(150px);
+
 }
 .book-8-text{
   color: rgb(0, 0, 0);
   font-size: 20px;
-  transform: translateY(px);
+  transform: translateX(85px);
 }
 
 
 
 
 
+.button_1728138346985 {
+  display: inline-block !important;
+  text-decoration: none !important;
+  background-color: #eaeaea !important;
+  color: #006089 !important;
+  border: 3px solid #006089 !important;
+  border-radius: 5px !important;
+  font-size: 16px !important;
+  padding: 0px 6px !important; 
+  transition: all 0.8s ease !important;
+}
+.button_1728138346985:hover{
+  text-decoration: none !important; 
+  background-color: #006089 !important;
+  color: #ffeded !important;
+  border-color: #006089 !important;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.paginator {
+  width: 280px;
+  padding: 10px;
+  margin: 30px auto;
+  white-space: nowrap;
+  background: #ecf0f1;
+}
+
+.paginator a,
+.paginator span {
+  display: inline-block;
+  min-width: 20px;
+  height: 40px;
+  padding: 0 10px;
+  line-height: 40px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  background: #95a5a6;
+}
+
+.paginator .prev {
+  text-indent: -1000px;
+  margin-right: 20px;
+  background-image: url("https://htmlacademy.ru/assets/course14/arrows.png");
+  background-repeat :no-repeat ;
+  background-position: 0px 0px;
+}
+
+.paginator .next {
+  text-indent: -1000px;
+  margin-left: 20px;
+  background-image: url("https://htmlacademy.ru/assets/course14/arrows.png");
+  background-repeat :no-repeat ;
+  background-position: 0px -40px;
+}
+.paginator .current {
+  background-color: #16a085;
+}
+
+.paginator .disabled {
+  opacity: 0.3;
+}
+
+.paginator a:hover {
+  background-color: #2ecc71;
+}
